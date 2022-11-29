@@ -1,5 +1,4 @@
 # Description
-------------------------
 We report our development and subsequent analysis of a Monte-Carlo Markov-Chain (MCMC) simulation for a 2-dimensional
 lattice following the Ising model, capable of studying the thermodynamic properties of the system. We reproduced plots for the
 magnetisation, susceptibility, magnetic susceptibility, and specific heat per spin for a system with external magnetic field, $𝐻 = 0$,

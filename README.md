@@ -12,14 +12,12 @@ magnetic field.
 
 
 # Main algorithm :	
-
-    Main program containig the simulation and relevant parameters. It allows the user to measure
+ Main program containig the simulation and relevant parameters. It allows the user to measure
     thermodynamic properties of a lattice following the Ising Model, for different numbers of
     particles and values of the coupling constant and external magnetic field. For more information regarding
     its proper use we refer to its docstring description.
               
               
 # Functions file	
-
-    File containing all the relevant functions used by the simulation. We note that the
+ File containing all the relevant functions used by the simulation. We note that the
     ising_mc_simu function performs the simulation on its own and can be used idependently

@@ -9,6 +9,18 @@ impact of the introduced asymmetry. Overall, our simulation appears to be capabl
 properties of an Ising model, and reproduce the theoretically expected figures in both presence and absence of an external
 magnetic field.
 
+## Basics
+------------
+- We define x_i as a state of the system (e.g. the position and velocity of all particles. Or the spin configuration). That’s what the integral runs over.
+- We assume that the "next” state x_{i+1} in a chain only depends on the current state x_i, not on whatever happened before. (The system has no memory)
+- We define T(x → x') the probability to go from state x to state x'. (e.g. the probability to flip 1 spin in our lattice)
+
+## Specific Goals 
+--------------
+The following are themeasured quantities that this code gives as an output, and in addition plots them against the corresponding temperature of the system.
+
+![Untitled](https://user-images.githubusercontent.com/101981619/205295681-737bad41-6197-423e-ac19-5f99fc072e51.png)
+
 
 
 # Main algorithm :	

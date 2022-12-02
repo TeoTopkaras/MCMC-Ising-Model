@@ -21,7 +21,7 @@ The following are themeasured quantities that this code gives as an output, and 
 
 
 
-# Main algorithm :	
+# Main algorithm
  `main_file.py`: Main program contains the simulation and relevant parameters. It allows the user to measure
    thermodynamic properties of a lattice following the Ising Model, for different numbers of
     particles and values of the coupling constant and external magnetic field. For more information regarding
